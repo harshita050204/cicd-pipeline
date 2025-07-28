@@ -1,10 +1,10 @@
 name: Deploy React + Vite to S3
 
 on:
-  workflow-dispatch:
   push:
     branches:
       - main
+  workflow-dispatch:
 
 jobs:
   build-deploy:
